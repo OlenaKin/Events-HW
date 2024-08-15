@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(143, 185, 171);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+
+
+.text {
+    width: 80%;
+    height: 400px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.textEditArea {
+    display: none;
+    width: 80%;
+    height: 400px; /* Задайте висоту на свій розсуд */
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin: 0 auto;
+    border: none;
+}
