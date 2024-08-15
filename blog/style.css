@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#text-block {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid #333;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#resize-handle {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+}
